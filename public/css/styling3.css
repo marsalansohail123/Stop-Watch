@@ -1,0 +1,69 @@
+/* ================== Dark Mode ================= */
+
+body {
+    background-image: url('../img/dark.jpg');
+}
+
+.main{
+    display: flex; justify-content: center; align-items: center;
+    width: 98vw;
+    height: 88vh; */
+    overflow: hidden;
+}
+
+.wrapper {
+    color: #fff;
+    text-align: center;
+    background-color: #171717;
+    padding: 20px;
+    border-radius: 12px ;
+    letter-spacing: 4px;
+}
+
+#hours{
+    font-size: 2.4em;
+}
+
+.timer-1{
+    font-size: 2.4em;
+}
+
+#minutes{
+    font-size: 2.2em;
+}
+
+.timer-2{
+    font-size: 2em;
+}
+
+#seconds{
+    font-size: 1.8em;
+}
+
+.timer-3{
+    font-size: 1.5em;
+}
+
+#tens{
+    font-size: 1.3em;
+}
+  
+button {
+    border-radius: 5px;
+    background: #0c4691;
+    color: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #fff;
+}
